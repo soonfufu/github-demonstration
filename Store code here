@@ -1,0 +1,14 @@
+print("Choose a department")
+print("1. GP")
+print(2. Specialist)
+department = input("Enter department: ")
+appointment_date = int(input("Enter appointment date (days from today): "))
+if department not in ["GP" or "Specialist"] or appointment_date < 7:
+    print("Error: Invalid department or appointment date must be at least 7 days")
+    while department not in ["GP" or "Specialist"] or appointment_date < 7:
+        Print("Please enter the details again")
+print("Booking Confirmed")
+print("=== Booking Confirmation ===")
+print("Department:", department)
+print("Appointment Date:", appointment_date)
+print("Your appointment has been sucessfully booked.")
